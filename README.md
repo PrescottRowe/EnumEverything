@@ -1,29 +1,29 @@
-# EnumEverything
+# EnumEverything <br/>
 Pentest enum-scripts
 
 
-### uname-gen.py
+### uname-gen.py <br/>
 This script will take a list of name in the format of (first last) and will create common usernames for use in various credential based attacks. 
 
 ##### Sample input of names.txt:
- 
-> Elizabeth Lopez
-Tara Baker
->Becky Casey
+ <br/>
+> Elizabeth Lopez  
+Tara Baker  
+Becky Casey  
 
 
 ##### Output of unames.txt:
- 
->elizabethlopez
-lopezelizabeth
-elizabeth.lopez
-lopez.elizabeth
-lopeze
-elopez
-lelizabeth
-e.lopez
-l.elizabeth
-elizabeth
-lopez
-tarabaker
->...more
+ <br/>
+>elizabethlopez  
+lopezelizabeth  
+elizabeth.lopez  
+lopez.elizabeth  
+lopeze  
+elopez  
+lelizabeth  
+e.lopez  
+l.elizabeth  
+elizabeth  
+lopez  
+tarabaker  
+...more
